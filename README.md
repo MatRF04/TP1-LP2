@@ -9,8 +9,9 @@ esto dentro de una grilla que simula un tablero, respetando reflas de consumo de
 contener el ecosistema
 
 ## Compilacion y Ejecucion
-1. Extraer el archivo comprimido
-2. Abrir el proyecto en Qt
-3. Seleccionar Open Project y elegir el archivo CMakeList.txt del proyecto
-4. Hacer clic en BUILD para compilar el proyecto 
-5. Hacer clicl en RUN para ejecutar el simulador 
+1. Descargar todo los archivos de github
+2. Extraer el archivo comprimido
+3. Abrir el proyecto en Qt
+4. Seleccionar Open Project y elegir el archivo CMakeList.txt del proyecto
+5. Hacer clic en BUILD para compilar el proyecto 
+6. Hacer clicl en RUN para ejecutar el simulador 
