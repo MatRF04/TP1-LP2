@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Iniciar.png</file>
+        <file>img/Pausar.png</file>
+        <file>img/Reiniciar.png</file>
+        <file>img/Fondo.png</file>
+        <file>img/Pasto.png</file>
+        <file>img/Carnivoro.png</file>
+        <file>img/Hervioro.png</file>
+        <file>img/Planta.png</file>
+    </qresource>
+</RCC>

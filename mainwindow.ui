@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1698</width>
+    <height>1009</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	border-image: url(:/img/Fondo.png) 0 0 0 0 stretch stretch;
+}
+
+#window {
+	background: transparent;
+}</string>
+  </property>
+  <widget class="QWidget" name="window">
+   <property name="styleSheet">
+    <string notr="true">#window {
+    border-image: url(:/img/img/sacale_el_fondo,_202604140053.png) 0 0 0 0 stretch stretch;
+    background-color: transparent;
+}</string>
+   </property>
+   <widget class="QLabel" name="lblCiclo">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>570</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: rgba(0, 0, 0, 180);
+	color: white;
+	border: 2px solid #5A5A5A;
+	border-radius: 4px;
+	padding: 6px;
+	font-family: &quot;Segoe UI&quot;, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	qproperty-alignment: AlignCenter;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Ciclo: 0</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="vistaEcosistema">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>911</width>
+      <height>831</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGraphicsView {
+	background: transparent;
+	border: none;
+}</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="btnReiniciarFondo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>470</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#btnReiniciarFondo {
+	border-image: url(:/img/Reiniciar.png);
+
+};
+
+
+</string>
+    </property>
+    <widget class="QPushButton" name="btnReiniciar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>311</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 30); 
+}
+
+QPushButton:pressed {
+	background-color: rgba(0,0,0,50);
+	padding-top: 3px;
+	padding-left: 3px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="btnPausarFondo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>370</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#btnPausarFondo {
+	border-image: url(:/img/Pausar.png);
+
+};
+
+
+</string>
+    </property>
+    <widget class="QPushButton" name="btnPausar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>341</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 30); 
+}
+
+QPushButton:pressed {
+	background-color: rgba(0,0,0,50);
+	padding-top: 3px;
+	padding-left: 3px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="btnIniciarFondo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>270</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#btnIniciarFondo {
+	border-image: url(:/img/Iniciar.png);
+};
+
+
+</string>
+    </property>
+    <widget class="QPushButton" name="btnIniciar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 30); 
+}
+
+QPushButton:pressed {
+	background-color: rgba(0,0,0,50);
+	padding-top: 3px;
+	padding-left: 3px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lblPlanta">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>640</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: rgba(0, 0, 0, 180);
+	color: white;
+	border: 2px solid #5A5A5A;
+	border-radius: 4px;
+	padding: 6px;
+	font-family: &quot;Segoe UI&quot;, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	qproperty-alignment: AlignCenter;
+	color: green;
+}</string>
+    </property>
+    <property name="text">
+     <string>Planta: X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblHervivoro">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>710</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: rgba(0, 0, 0, 180);
+	color: white;
+	border: 2px solid #5A5A5A;
+	border-radius: 4px;
+	padding: 6px;
+	font-family: &quot;Segoe UI&quot;, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	qproperty-alignment: AlignCenter;
+	color: yellow;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Hervivoro: Y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCarnivoro">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>780</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: rgba(0, 0, 0, 180);
+	color: white;
+	border: 2px solid #5A5A5A;
+	border-radius: 4px;
+	padding: 6px;
+	font-family: &quot;Segoe UI&quot;, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	qproperty-alignment: AlignCenter;
+	color: red;
+}</string>
+    </property>
+    <property name="text">
+     <string>Carnivoro: Z</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1698</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
