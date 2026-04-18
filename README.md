@@ -1,6 +1,6 @@
 # Simulador de Ecosistema - TP1
 
-**Integrante**: Mateo Rios
+**Integrantes**: Mateo Rios y Lucas Fadul
 
 ## Descripcion Breve
 Este proyecto es una simulacion de un ecosistema en 2D, desarrollado en C++ y Qt.
