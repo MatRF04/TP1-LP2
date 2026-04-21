@@ -111,6 +111,9 @@ void Hervivoro::act(Ecosystemboard* board) {
             board->consumePlant(checkX,checkY);
             energia += 15;
             comio = true;
+
+            board->moveEntity(this,checkX,checkY); //Se mueve al lugar que comio
+            
             break;
         }
 
@@ -172,6 +175,9 @@ void Carnivoro::act(Ecosystemboard* board) {
             board->consumeHervivoro(checkX,checkY);
             energia += 15;
             comio = true;
+
+            board->moveEntity(this,checkX,checkY); //se mueve al lugar que comio
+            
             break;
         }
     }
